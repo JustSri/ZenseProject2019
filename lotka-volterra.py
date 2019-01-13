@@ -104,7 +104,7 @@ if graph_type[0] == 'population':
     graph.legend(loc='best')
     graph.xlabel('Time')
     graph.ylabel('Population')
-    graph.title('Lotka-Volterra Equations')
+    graph.title('Population vs Time Graph')
     graph.show()
 #Phase Graph
 if graph_type[0] == 'phase':
@@ -114,5 +114,5 @@ if graph_type[0] == 'phase':
     graph.grid()
     graph.xlabel('Prey')
     graph.ylabel('Predator')
-    graph.title('Lotka-Volterra Equations Part 2')
+    graph.title('Phase Space Diagram')
     graph.show()
